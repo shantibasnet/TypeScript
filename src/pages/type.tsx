@@ -1,6 +1,16 @@
+export interface IHuman {
+  gender: string;
+  DOB: string;
+  status: boolean;
+}
+
 export interface IPerson {
   name: String;
   age: number | string;
+}
+
+export interface INumber {
+ dates: number[];
 }
 
 export interface ICar {
@@ -8,9 +18,7 @@ export interface ICar {
   model: string;
 }
 
-export interface IBike{
-  brabd: string
-  type:string
+export interface IBike {
+  brand: string;
+  type: string;
 }
-
-
